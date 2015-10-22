@@ -1272,6 +1272,10 @@ div.accordion-section-content {
 }
 */
 /*   - - - - - - - .calendar specific - - - - - - -   */
+.calendar #isd-calendar {
+  width: 800px;
+  display: none; }
+
 .calendar #page-banner {
   background: #f58345;
   height: 100px; }
