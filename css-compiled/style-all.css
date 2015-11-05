@@ -1118,7 +1118,9 @@ NEW:
 #sb-body-inner {
   position: absolute;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden; }
 
 #sb-player.html {
   height: 100%;
@@ -1248,7 +1250,7 @@ div.sb-message a:link, div.sb-message a:visited {
 
   #sb-body-inner {
     /* Needed for touch scrolling on iPhones in Safari*/
-    overflow-y: scroll;
+    overflow-y: hidden;
     -webkit-overflow-scrolling: touch; }
     #sb-body-inner iframe#sb-player {
       height: 100%;

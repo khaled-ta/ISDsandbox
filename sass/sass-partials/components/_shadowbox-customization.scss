@@ -23,7 +23,7 @@
 
 
 	#sb-body-inner { /* Needed for touch scrolling on iPhones in Safari*/
-		overflow-y: scroll;
+		overflow-y: hidden;
 		-webkit-overflow-scrolling: touch;
 
 		iframe#sb-player {
